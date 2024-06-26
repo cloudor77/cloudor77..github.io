@@ -136,6 +136,15 @@
     </div>
 
     <script>
+     (function (ci) {
+        var ef = (window[ci] = function () {
+          return ef.q.push(arguments);
+        });
+
+        ef.q = [];
+        ef.a = {};
+      })("ci360", { tenantId: "01a180d775000112296f20e2" });
+      
       const carousel = document.querySelector(".carousel");
 
       carousel.addEventListener("wheel", (event) => {
@@ -145,5 +154,13 @@
         });
       });
     </script>
+
+      <script
+      async
+      data-efname="ci360"
+      data-a="01a180d775000112296f20e2"
+      src="https://i-eu.ci360.marketing/js/ot2.min.js"
+      id="ob-script-async"
+    ></script>
   </body>
 </html>
