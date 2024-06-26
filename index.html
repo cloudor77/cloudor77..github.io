@@ -4,6 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moneta/SAS Showcase</title>
+    <link rel='preload' href='https://i-eu.ci360.marketing/js/ot2.min.js' as='script' >
+    <script>
+
+
+        (function(ci){
+        
+          var ef=window[ci]=function(){
+        
+              return ef.q.push(arguments);
+        
+          };
+        
+          ef.q=[];ef.a={};
+        
+        })('ci360',{tenantId:'01a180d775000112296f20e2'});   
+    </script>
+    <script async data-efname='ci360' data-a='01a180d775000112296f20e2' src='https://i-eu.ci360.marketing/js/ot2.min.js' id='ob-script-async'></script>
     <style>
       body {
         display: flex;
@@ -128,17 +145,7 @@
     </div>
 
     <script>
-     (function (ci) {
-        var ef = (window[ci] = function () {
-          return ef.q.push(arguments);
-        });
-
-        ef.q = [];
-        ef.a = {};
-      })("ci360", { tenantId: "01a180d775000112296f20e2" });
-      
       const carousel = document.querySelector(".carousel");
-
       carousel.addEventListener("wheel", (event) => {
         event.preventDefault();
         carousel.scrollBy({
@@ -146,13 +153,5 @@
         });
       });
     </script>
-
-      <script
-      async
-      data-efname="ci360"
-      data-a="01a180d775000112296f20e2"
-      src="https://i-eu.ci360.marketing/js/ot2.min.js"
-      id="ob-script-async"
-    ></script>
   </body>
 </html>
